@@ -11,6 +11,7 @@ namespace ConvertCsvToTsv
     {
         static void Main(string[] args)
         {
+            // Enter the input and output paths to read and write the data
             Console.Write("Enter the input CSV file path: ");
             string inputFilePath = Console.ReadLine();
             Console.Write("Enter the output TSV file path: ");
